@@ -31,7 +31,7 @@ public class JackPlayCard {
         $("input[type='password']").setValue("Test123456");
         $("div.field-wrapper.nick-field-wrapper input[type='text']").setValue("a");
         $(".confirmRules-field-container .FormField__control").click();
-        $(".send-form.SimpleButton_interactive").click();=
+        $(".send-form.SimpleButton_interactive").click();
         $(byText("Nickname should contain at least 3 characters")).shouldBe(visible);
 
     }
